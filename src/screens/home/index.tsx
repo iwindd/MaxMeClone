@@ -1,4 +1,3 @@
-import { Header } from '@rneui/base'
 import React from 'react'
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import Store from './components/store'
@@ -8,7 +7,11 @@ import Posts from './components/posts'
 
 const Home = () => {
   return (
-    <ScrollView>
+    <ScrollView
+      style={{
+        backgroundColor: "#71dc46"
+      }}
+    >
       <View
         style={{
           width: '100%',
@@ -23,13 +26,13 @@ const Home = () => {
           backgroundColor: "white",
           borderTopRightRadius: 20,
           borderTopLeftRadius: 20,
-          height: 1000,
+          height: 'auto',
         }}
       >
         <Store />
         <Ads />
         <Menu />
-        <Posts />
+        <Posts title='' content='' />
       </ScrollView>
     </ScrollView>
   )

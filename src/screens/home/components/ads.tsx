@@ -1,16 +1,25 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Pressable } from 'react-native';
 
-const Card = ({ title, content } : any) => {
+const Ads = () => {
   return (
-    <View style={styles.card}>
-      <Text style={styles.title}>{title}</Text>
-      <Text style={styles.content}>{content}</Text>
+    <View style={styles.wrapper}>
+      <View style={styles.card}>
+        <Text style={styles.title}>เริ่มต้นใช้งาน Max Me</Text>
+        <Text style={styles.content}>เหลิดเหล็นกับสิทธิพิเศษมากมาอสำหรับสมาชิก Max Card</Text>
+        <Pressable style={styles.button} >
+          <Text style={styles.buttontext}>เข้าสู่ระบบ</Text>
+        </Pressable>
+      </View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  wrapper: {
+    padding: 15,
+    marginTop: 15
+  },
   card: {
     backgroundColor: '#fff',
     borderRadius: 8,
@@ -29,10 +38,22 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 10,
+    color: 'green',
+    marginTop: 20
   },
   content: {
-    fontSize: 16,
+    fontSize: 13,
   },
+  button: {
+    backgroundColor: '#5cbf4a',
+    padding: 10,
+    borderRadius: 7,
+    marginTop: 5
+  },
+  buttontext: {
+    textAlign: 'center',
+    color: 'white'
+  }
 });
 
-export default Card;
+export default Ads;

@@ -2,7 +2,6 @@ import React from 'react';
 import { FlatList, View, Text, StyleSheet } from 'react-native';
 
 const Store = () => {
-  // Dummy data for the list
   const data = [
     { id: '1', text: 'Item 1' },
     { id: '2', text: 'Item 2' },
@@ -11,9 +10,10 @@ const Store = () => {
     { id: '5', text: 'Item 5' },
   ];
 
-  const renderItem = ({ item } : any) => (
-    <View style={styles.item}>
-      <Text>{item.text}</Text>
+  const renderItem = ({ item }: any) => (
+    <View>
+      <View style={styles.itemIcon}></View>
+      <Text style={styles.itemTitle}>{item.text}</Text>
     </View>
   );
 
@@ -35,12 +35,16 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 20,
   },
-  item: {
-    backgroundColor: '#f9c2ff',
-    padding: 20,
+  itemIcon: {
+    backgroundColor: '#eaf7e5',
+    padding: 30,
     marginVertical: 8,
+    borderRadius: 6,
     marginHorizontal: 16,
   },
+  itemTitle: {
+    textAlign: "center"
+  }
 });
 
 export default Store;
