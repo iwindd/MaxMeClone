@@ -1,7 +1,9 @@
-module.Exports = {
-  project: {
-    ios: {},
-    android: {},
+module.exports = {
+  dependencies: {
+    'react-native-vector-icons': {
+      platforms: {
+        ios: null,
+      },
+    },
   },
-  assets: ['./src/assets/fonts/'], // path of your assert file
 };
