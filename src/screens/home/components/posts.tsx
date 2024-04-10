@@ -1,58 +1,47 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Image, ImageURISource } from 'react-native';
 
-const Posts = (props: {
-  title: string,
-  content: string
+const Card = (props: {
+  image: ImageURISource
 }) => {
   return (
-    <View style={styles.wrapper}>
-      <View style={styles.card}>
-        <Text style={styles.title}></Text>
-        <Text style={styles.content}></Text>
-      </View>
+    <View style={styles.card}>
+      <Image source={props.image} style={styles.image} />
     </View>
   );
 };
 
+const Posts = () => {
+  const posts: ImageURISource[] = [
+    require('../../../../assets/images/posts/1.jpg'),
+    require('../../../../assets/images/posts/2.jpg'),
+    require('../../../../assets/images/posts/3.jpg')
+  ]
+
+  return (
+    <ScrollView style={styles.wrapper}>
+      {
+        posts.map((img) => <Card image={img} />)
+      }
+    </ScrollView>
+  )
+}
+
 const styles = StyleSheet.create({
   wrapper: {
     padding: 15,
-    marginTop: 15
+    height: 'auto'
   },
   card: {
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
     borderRadius: 8,
-    padding: 20,
-    marginBottom: 20,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
+    overflow: 'hidden',
+    marginBottom: 15,
+    height: 160
   },
-  title: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 10,
-    color: 'green',
-    marginTop: 20
-  },
-  content: {
-    fontSize: 13,
-  },
-  button: {
-    backgroundColor: '#5cbf4a',
-    padding: 10,
-    borderRadius: 7,
-    marginTop: 5
-  },
-  buttontext: {
-    textAlign: 'center',
-    color: 'white'
+  image: {
+    width: '100%',
+    height: '100%'
   }
 });
 
