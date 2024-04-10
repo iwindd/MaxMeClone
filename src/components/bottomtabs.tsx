@@ -1,6 +1,28 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { Icon } from '@rneui/themed';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
+interface Menu {
+  icon: string;
+}
+
+const Menus: { [key: string]: Menu } = {
+  Home: {
+    icon: "home"
+  },
+  Orders: {
+    icon: "receipt"
+  },
+  Scan: {
+    icon: "scanner"
+  },
+  Rewards: {
+    icon: "redeem"
+  },
+  ETC: {
+    icon: "apps"
+  }
+}
 
 const CustomTabBar = ({ state, descriptors, navigation }: any) => {
   return (
@@ -8,8 +30,11 @@ const CustomTabBar = ({ state, descriptors, navigation }: any) => {
       {state.routes.map((route: any, index: number) => {
         const { options } = descriptors[route.key];
         const label = options.tabBarLabel !== undefined ? options.tabBarLabel : options.title !== undefined ? options.title : route.name;
-
         const isFocused = state.index === index;
+        const Menu = Menus[route.name]
+        const centered = Math.floor(state.routes.length / 2) == index
+
+        if (!Menu) return null;
 
         const onPress = () => {
           const event = navigation.emit({
@@ -33,8 +58,30 @@ const CustomTabBar = ({ state, descriptors, navigation }: any) => {
             onPress={onPress}
             style={[styles.tabItem, isFocused ? styles.tabItemFocused : null]}
           >
-            <Icon name='rowing' />
-            <Text style={[styles.tabText, isFocused ? styles.tabTextFocused : null]}>{label}</Text>
+            <View style={[centered ? styles.tabParentCenter : styles.tabParent]}>
+              <Icon
+                name={Menu.icon}
+                size={27}
+                style={
+                  [
+                    styles.menuIcon,
+                    isFocused ? styles.menuIconFocused : null,
+                    centered ? styles.menuIconCentered : null
+                  ]
+                }
+              />
+              <Text
+                style={
+                  [
+                    styles.tabText,
+                    isFocused ? styles.tabTextFocused : null,
+                    centered ? styles.menuIconCentered : null
+                  ]
+                }
+              >
+                {label}
+              </Text>
+            </View>
           </TouchableOpacity>
         );
       })}
@@ -48,10 +95,31 @@ const styles = StyleSheet.create({
     height: 70,
     backgroundColor: '#fff'
   },
+  menuIcon: {},
+  menuIconFocused: {
+    color: 'orange'
+  },
   tabItem: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  tabParent: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  tabParentCenter: {
+    backgroundColor: "#59982d",
+    marginTop: -60,
+    borderRadius: 50,
+    width: 78,
+    height: 78,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  menuIconCentered: {
+    color: 'white'
   },
   tabItemFocused: {},
   tabTextFocused: {
