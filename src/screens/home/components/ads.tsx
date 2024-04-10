@@ -17,8 +17,8 @@ const Ads = () => {
 
 const styles = StyleSheet.create({
   wrapper: {
-    padding: 15,
-    marginTop: 15
+    paddingHorizontal: 15,
+    marginTop: 20,
   },
   card: {
     backgroundColor: '#fff',
