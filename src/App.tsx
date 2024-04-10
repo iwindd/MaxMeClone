@@ -24,6 +24,7 @@ function App(): React.JSX.Element {
       >
         <Tab.Screen name="Home" component={Home} options={{ title: "หน้าหลัก" }} />
         <Tab.Screen name="Orders" component={ETC} options={{ title: "ออเดอร์" }} />
+        <Tab.Screen name="Scan" component={ETC} options={{ title: "สแกน" }} />
         <Tab.Screen name="Rewards" component={ETC} options={{ title: "ของรางวัล" }} />
         <Tab.Screen name="ETC" component={ETC} options={{ title: "อื่นๆ" }} />
       </Tab.Navigator>
