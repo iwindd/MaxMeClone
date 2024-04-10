@@ -32,7 +32,7 @@ const Home = () => {
         <Store />
         <Ads />
         <Menu />
-        <Posts title='' content='' />
+        <Posts />
       </ScrollView>
     </ScrollView>
   )

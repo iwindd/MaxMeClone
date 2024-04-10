@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 import { Col, Cols } from 'react-native-cols';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -12,8 +12,8 @@ const AppBar = () => {
             <Text style={styles.title}>LOGO</Text>
           </Col>
           <Col span={2} style={styles.nav}>
-            <Icon name="notifications" size={22} style={styles.menuIcon}/>
-            <Icon name="person" size={27} style={styles.menuIcon}/>
+            <Icon name="notifications" size={22} style={styles.menuIcon} />
+            <Icon name="person" size={27} style={styles.menuIcon} />
           </Col>
         </Cols>
       </View>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, View, Text, StyleSheet, Image } from 'react-native';
+import { FlatList, View, Text, StyleSheet, Image, ImageURISource } from 'react-native';
 
 const Store = () => {
   const data = [
@@ -10,7 +10,13 @@ const Store = () => {
     { id: '5', text: 'Autobacs', img: require('../../../../assets/images/stores/5.png') },
   ];
 
-  const renderItem = ({ item }: any) => (
+  const renderItem = ({ item }: {
+    item: {
+      id: string,
+      text: string,
+      img: ImageURISource
+    }
+  }) => (
     <View>
       <View style={styles.itemIcon}>
         <Image
