@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   tabParentCenter: {
-    backgroundColor: "#59982d",
+    backgroundColor: "#5cbf4a",
     marginTop: -60,
     borderRadius: 50,
     width: 78,
