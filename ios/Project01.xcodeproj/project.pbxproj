@@ -14,6 +14,22 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Project01-Project01Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Project01-Project01Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		29007999943E43A49977832E /* Sarabun-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAAD98ED04284BCE96FB24BC /* Sarabun-Bold.ttf */; };
+		46C2A174DD8042EC8170EBA4 /* Sarabun-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D5997B2B4D94C06B877FF8D /* Sarabun-BoldItalic.ttf */; };
+		24CCECF2042140759E46D2EE /* Sarabun-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35F998B92DFF455E823AE54B /* Sarabun-ExtraBold.ttf */; };
+		C015CC21C13F4FB488A0CB37 /* Sarabun-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A24C1D256FE44101B18A022C /* Sarabun-ExtraBoldItalic.ttf */; };
+		E4D11EE6E24340D28B38E974 /* Sarabun-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6163F47F883F44178FA0EF7A /* Sarabun-ExtraLight.ttf */; };
+		30DAE7B3E1C2417981DEC077 /* Sarabun-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A878E6EC9C894084BFED8592 /* Sarabun-ExtraLightItalic.ttf */; };
+		BDC9BA1BCEA54B229D0BA733 /* Sarabun-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB67A4257AD4C0BB62523E2 /* Sarabun-Italic.ttf */; };
+		4D9E6262087E45D8924CE57A /* Sarabun-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 848E1BCCF9734FD28F264D9D /* Sarabun-Light.ttf */; };
+		E07E1715642F4071B6937FD0 /* Sarabun-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB082B1D38B844E199BC6BE7 /* Sarabun-LightItalic.ttf */; };
+		0940E94B3EE940FF950A8E4A /* Sarabun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 985BF67E05364E75915B88BE /* Sarabun-Medium.ttf */; };
+		7C0FB5E28A944ED0B36C6C29 /* Sarabun-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6922DCE09992427383EDA9BE /* Sarabun-MediumItalic.ttf */; };
+		03FB99EF65E84F0199D62C95 /* Sarabun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF6F69C21D14C138BAF7C46 /* Sarabun-Regular.ttf */; };
+		89EDB17579E445319C08F7B1 /* Sarabun-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B53930A51DB044D8A2931D29 /* Sarabun-SemiBold.ttf */; };
+		1CFC248441B8450F95304573 /* Sarabun-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090D2BA14B4D402F92231805 /* Sarabun-SemiBoldItalic.ttf */; };
+		22B6EE17D43E45A3AF768474 /* Sarabun-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2D3C6B2CDB747C89653DF94 /* Sarabun-Thin.ttf */; };
+		1CF2AE686360422EA60A27F6 /* Sarabun-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95F5C6E350D94222B322FCDF /* Sarabun-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,22 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Project01/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Project01-Project01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project01-Project01Tests.release.xcconfig"; path = "Target Support Files/Pods-Project01-Project01Tests/Pods-Project01-Project01Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CAAD98ED04284BCE96FB24BC /* Sarabun-Bold.ttf */ = {isa = PBXFileReference; name = "Sarabun-Bold.ttf"; path = "../assets/fonts/Sarabun-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D5997B2B4D94C06B877FF8D /* Sarabun-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Sarabun-BoldItalic.ttf"; path = "../assets/fonts/Sarabun-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35F998B92DFF455E823AE54B /* Sarabun-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Sarabun-ExtraBold.ttf"; path = "../assets/fonts/Sarabun-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A24C1D256FE44101B18A022C /* Sarabun-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Sarabun-ExtraBoldItalic.ttf"; path = "../assets/fonts/Sarabun-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6163F47F883F44178FA0EF7A /* Sarabun-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Sarabun-ExtraLight.ttf"; path = "../assets/fonts/Sarabun-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A878E6EC9C894084BFED8592 /* Sarabun-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Sarabun-ExtraLightItalic.ttf"; path = "../assets/fonts/Sarabun-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FB67A4257AD4C0BB62523E2 /* Sarabun-Italic.ttf */ = {isa = PBXFileReference; name = "Sarabun-Italic.ttf"; path = "../assets/fonts/Sarabun-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		848E1BCCF9734FD28F264D9D /* Sarabun-Light.ttf */ = {isa = PBXFileReference; name = "Sarabun-Light.ttf"; path = "../assets/fonts/Sarabun-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB082B1D38B844E199BC6BE7 /* Sarabun-LightItalic.ttf */ = {isa = PBXFileReference; name = "Sarabun-LightItalic.ttf"; path = "../assets/fonts/Sarabun-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		985BF67E05364E75915B88BE /* Sarabun-Medium.ttf */ = {isa = PBXFileReference; name = "Sarabun-Medium.ttf"; path = "../assets/fonts/Sarabun-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6922DCE09992427383EDA9BE /* Sarabun-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Sarabun-MediumItalic.ttf"; path = "../assets/fonts/Sarabun-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EBF6F69C21D14C138BAF7C46 /* Sarabun-Regular.ttf */ = {isa = PBXFileReference; name = "Sarabun-Regular.ttf"; path = "../assets/fonts/Sarabun-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B53930A51DB044D8A2931D29 /* Sarabun-SemiBold.ttf */ = {isa = PBXFileReference; name = "Sarabun-SemiBold.ttf"; path = "../assets/fonts/Sarabun-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		090D2BA14B4D402F92231805 /* Sarabun-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Sarabun-SemiBoldItalic.ttf"; path = "../assets/fonts/Sarabun-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2D3C6B2CDB747C89653DF94 /* Sarabun-Thin.ttf */ = {isa = PBXFileReference; name = "Sarabun-Thin.ttf"; path = "../assets/fonts/Sarabun-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95F5C6E350D94222B322FCDF /* Sarabun-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Sarabun-ThinItalic.ttf"; path = "../assets/fonts/Sarabun-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				15BA7BAE17EE4FA78BD44ACA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +180,30 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		15BA7BAE17EE4FA78BD44ACA /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				CAAD98ED04284BCE96FB24BC /* Sarabun-Bold.ttf */,
+				9D5997B2B4D94C06B877FF8D /* Sarabun-BoldItalic.ttf */,
+				35F998B92DFF455E823AE54B /* Sarabun-ExtraBold.ttf */,
+				A24C1D256FE44101B18A022C /* Sarabun-ExtraBoldItalic.ttf */,
+				6163F47F883F44178FA0EF7A /* Sarabun-ExtraLight.ttf */,
+				A878E6EC9C894084BFED8592 /* Sarabun-ExtraLightItalic.ttf */,
+				5FB67A4257AD4C0BB62523E2 /* Sarabun-Italic.ttf */,
+				848E1BCCF9734FD28F264D9D /* Sarabun-Light.ttf */,
+				AB082B1D38B844E199BC6BE7 /* Sarabun-LightItalic.ttf */,
+				985BF67E05364E75915B88BE /* Sarabun-Medium.ttf */,
+				6922DCE09992427383EDA9BE /* Sarabun-MediumItalic.ttf */,
+				EBF6F69C21D14C138BAF7C46 /* Sarabun-Regular.ttf */,
+				B53930A51DB044D8A2931D29 /* Sarabun-SemiBold.ttf */,
+				090D2BA14B4D402F92231805 /* Sarabun-SemiBoldItalic.ttf */,
+				F2D3C6B2CDB747C89653DF94 /* Sarabun-Thin.ttf */,
+				95F5C6E350D94222B322FCDF /* Sarabun-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +300,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				29007999943E43A49977832E /* Sarabun-Bold.ttf in Resources */,
+				46C2A174DD8042EC8170EBA4 /* Sarabun-BoldItalic.ttf in Resources */,
+				24CCECF2042140759E46D2EE /* Sarabun-ExtraBold.ttf in Resources */,
+				C015CC21C13F4FB488A0CB37 /* Sarabun-ExtraBoldItalic.ttf in Resources */,
+				E4D11EE6E24340D28B38E974 /* Sarabun-ExtraLight.ttf in Resources */,
+				30DAE7B3E1C2417981DEC077 /* Sarabun-ExtraLightItalic.ttf in Resources */,
+				BDC9BA1BCEA54B229D0BA733 /* Sarabun-Italic.ttf in Resources */,
+				4D9E6262087E45D8924CE57A /* Sarabun-Light.ttf in Resources */,
+				E07E1715642F4071B6937FD0 /* Sarabun-LightItalic.ttf in Resources */,
+				0940E94B3EE940FF950A8E4A /* Sarabun-Medium.ttf in Resources */,
+				7C0FB5E28A944ED0B36C6C29 /* Sarabun-MediumItalic.ttf in Resources */,
+				03FB99EF65E84F0199D62C95 /* Sarabun-Regular.ttf in Resources */,
+				89EDB17579E445319C08F7B1 /* Sarabun-SemiBold.ttf in Resources */,
+				1CFC248441B8450F95304573 /* Sarabun-SemiBoldItalic.ttf in Resources */,
+				22B6EE17D43E45A3AF768474 /* Sarabun-Thin.ttf in Resources */,
+				1CF2AE686360422EA60A27F6 /* Sarabun-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

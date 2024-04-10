@@ -8,17 +8,17 @@ import Posts from './components/posts'
 const Home = () => {
   return (
     <ScrollView
-      style={{
-        backgroundColor: "#71dc46"
-      }}
+      style={{ backgroundColor: "#71dc46" }}
     >
       <View
         style={{
           width: '100%',
-          padding: 30
+          paddingHorizontal: 30,
+          paddingBottom: 15,
+          paddingTop: 20
         }}
       >
-        <Text style={styles.welcome}>สวัสดี</Text>
+        <Text style={styles.welcome}>สวัสดี 😃</Text>
         <Text style={styles.welcome}>แมกซ์ มี ยินดีต้อนรับ</Text>
       </View>
       <ScrollView
@@ -40,9 +40,10 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   welcome: {
+    fontFamily: "Sarabun-Regular",
     fontSize: 19,
-    fontWeight: 'bold',
-    color: 'white'
+    color: 'white',
+    lineHeight: 30
   }
 });
 
