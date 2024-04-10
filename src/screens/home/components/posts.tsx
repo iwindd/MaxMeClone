@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView, Image, ImageURISource } from 'react-native';
+import { View, StyleSheet, ScrollView, Image, ImageURISource } from 'react-native';
 
 const Card = (props: {
   image: ImageURISource
@@ -21,7 +21,7 @@ const Posts = () => {
   return (
     <ScrollView style={styles.wrapper}>
       {
-        posts.map((img) => <Card image={img} />)
+        posts.map((img, index) => <Card key={index} image={img} />)
       }
     </ScrollView>
   )
